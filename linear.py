@@ -8,7 +8,7 @@ def search(li, num, key):
 def main():
     li = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
     num = int(input("Enter a number of an element: "))
-    key = 50
+    key = 30
     ind = search(li, num, key)
     if ind == -1:
         print("Element not found")

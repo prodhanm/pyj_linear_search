@@ -1,3 +1,4 @@
+# for clarification, the num variable is used as an index in the search function
 def search(li, num, key):
     for num in range(len(li)):
         if li[num] == key:

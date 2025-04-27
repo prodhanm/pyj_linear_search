@@ -13,11 +13,11 @@ class Linear {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int num;
-        int key;
+        int key = 40;
         int list[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
         System.out.print("Enter the number of an elemen: ");
         num = inp.nextInt(); 
-        int index = search(list, num, key=40);
+        int index = search(list, num, key);
         if(index == -1) {
             System.out.println("Element not found in the list.");
         } else {
